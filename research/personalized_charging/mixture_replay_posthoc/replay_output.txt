@@ -1,0 +1,7 @@
+group                fixed (stored) mixture | false: fixed mixture
+easy                   167 (167)     146 |     0       0
+low_information_positive     1 (  1)       1 |     0       0
+boundary                 2 (  2)       1 |     1       1
+harmful                  0 (  0)       0 |     0       0
+tight_service            0 (  0)       0 |     0       0
+misspecified           189 (189)     180 |   189     180

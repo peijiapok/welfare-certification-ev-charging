@@ -1,0 +1,29 @@
+{
+  "sha256": {
+    "personalized_charging/__init__.py": "1798c02875c517387c273f5dcfa4b3f9c7b8323863dddbd50d3adc8e80a136ed",
+    "personalized_charging/bridge.py": "994f3f2a81d84d59a968d5ff3c8a5e5b4f37fb2c9acf64b5a6301bee60b2970f",
+    "personalized_charging/choices.py": "d7846c00386810ada7b3de8bcd56119e5fe0f1ba9e7dcd7366665996bd425630",
+    "personalized_charging/core.py": "d35a251806f92259abbd641f8f19bce346175fc7219b139edf888ce241a331b2",
+    "personalized_charging/observations.py": "c3bb4ab78cbfe33921393271afd78bdddff2d60d9b48ea006233eb5f0691fe32",
+    "personalized_charging/p3d_diagnostic_v1/interval.py": "507f5a0e80cbbd5dcb56e9932b5839b310c0b620bfd44dce44b356d0f006ebaf",
+    "personalized_charging/profiles.py": "a9a234356785ee0db4478a2372c2e46dda0744b39a4ac4b7e89fd4ab9240a1d4",
+    "personalized_charging/reservations.py": "fceea5345a0993cc67c64b16acfe8ccf6202264ee2a8f9109f48fb4e24228b1b",
+    "personalized_charging/sequential_identification_v1/physical.py": "0df9cf1305ea39b4bdefdec702159b6af25321bc67c0a246bfd0ab5f10b753bd",
+    "personalized_charging/three_contrast_confidence_exploratory_v1/gate.py": "11c84d7935c578884221968a421f6c7c73f349a8dfcafa2cf957bc0ac4604806",
+    "personalized_charging/three_contrast_confidence_exploratory_v1/test_gate.py": "862993b38bc53a2265d5b27b58c6011fc37ea46aff5f3735ddac931b8698fb50",
+    "personalized_charging/two_contrast_bias_exploratory_v1/gate.py": "62ca6e16daee331aa52e8dc44c015544dc690e78599a4ebd6a5be4807f2d0e3e",
+    "personalized_charging/two_contrast_bias_exploratory_v1/test_gate.py": "3595857fe47d2e39fa4e657e47ae8432d6e7172616add2a930e9b983e40c3d6b",
+    "personalized_charging/two_driver_exploratory_v1/gate.py": "e0293ecf3cdb1ce3c574bdfb93e6ea076d8b0486402f9f353247fa4840b0977b",
+    "personalized_charging/two_driver_exploratory_v1/physical.py": "b1fec8739350ebe4ef21c804e72c0a081e0589ec5e5e3760f38cdecb09cba372",
+    "personalized_charging/two_driver_exploratory_v1/schedule.py": "fca4e259779476b56224156352e782114698b4ff230e2a84af38c547f75054c3",
+    "personalized_charging/two_driver_exploratory_v1/test_independent_fraction.py": "e7010d6947ca12b808de5821b9fe467e3ec8852482d120820c4f3ced1a03ff42",
+    "personalized_charging/two_driver_exploratory_v1/test_prototype.py": "dc92e63de6194d97e4e5f0b5ca3a9d930526c7aac1bc31d1d6ffb60112327fe5",
+    "personalized_charging/two_driver_study_v1/PROTOCOL.md": "7a273e2e06e6f5051448f0e9c314bf5de492ce251986671ed7ff357c0644c543",
+    "personalized_charging/two_driver_study_v1/run.py": "e9031845474e7688e28e863fc3afc6d2918a3ece6ee86773d4b738c69b75fdf8",
+    "personalized_charging/two_driver_study_v1/test_run.py": "e27d7247d6488c740f92559850ef006f0e73d97713846a0eadf58e86cccc07bd",
+    "personalized_charging/variable_physics_exploratory_v1/gate.py": "21f302ad07f6d8aa82c4452b421cffe6d5cf83f376b14cc97a672797deda763d",
+    "personalized_charging/variable_physics_exploratory_v1/physical.py": "c26087838a929219ed8585c4de1727725a8c035ca2cc0d1d0b10f21c330d66f7",
+    "personalized_charging/variable_physics_exploratory_v1/prior_gate.py": "1fcbd3211a2009c73da86d04a42570611257eccb99bf12bb0051c42fa1170d36",
+    "personalized_charging/variable_physics_exploratory_v1/test_extension.py": "48530d7b59b9efb3c99c8ff80f4acd7bba7e8546bea24040ef8694a95e41df41"
+  }
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Identification Limits for Welfare Certification from Binary Choice Feedback: code, protocols and simulation outputs"
+authors:
+  - family-names: Pok
+    given-names: Peijia
+    orcid: "https://orcid.org/0009-0005-6572-7491"
+    affiliation: "KAIST, Department of Civil and Environmental Engineering"
+  - family-names: Yeo
+    given-names: Hwasoo
+    affiliation: "KAIST, Department of Civil and Environmental Engineering"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-28"
+keywords:
+  - sequential testing
+  - partial identification
+  - electric-vehicle charging

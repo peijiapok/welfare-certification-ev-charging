@@ -1,0 +1,16 @@
+{
+  "sha256": {
+    "PROTOCOL.md": "62ccf4320de8ee0042354972c6fc3e2fe07e1b0cc0ce0c3d65bf976a2bdb7867",
+    "run.py": "9f3c8010a940d315e53cfb669d5036f9dce02cb92b09047628db12ce5569f374",
+    "physical.py": "0df9cf1305ea39b4bdefdec702159b6af25321bc67c0a246bfd0ab5f10b753bd",
+    "certificate.py": "c19a539ad7ffad2a2f70accb7687eb799d9e1db4652686778b00f7c83ee7925a",
+    "test_run.py": "71dae32808a88292078cd146e5f45c16bfe6702eac3a05370c9f28760904736d",
+    "test_physical.py": "e11de942bc97762817716ac484684cc8a3fa81cd2df29089bda3d7798827ff0b",
+    "test_certificate.py": "5136ec61ff2b5795f55e008367d967afbb0d5d4e100dda0030c63b50031535b5"
+  },
+  "frozen_utc": "2026-10-27T12:48:32.741718+00:00",
+  "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+  "scientific_attempts_allowed": 1
+}

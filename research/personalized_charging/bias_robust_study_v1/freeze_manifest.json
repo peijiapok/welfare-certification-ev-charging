@@ -1,0 +1,27 @@
+{
+  "sha256": {
+    "personalized_charging/__init__.py": "1798c02875c517387c273f5dcfa4b3f9c7b8323863dddbd50d3adc8e80a136ed",
+    "personalized_charging/bias_robust_study_v1/PROTOCOL.md": "a91c36ac04509ed9f05d821b7b24afdf849cec5f441718991759691b2b5c4e74",
+    "personalized_charging/bias_robust_study_v1/run.py": "329cd5f8ab7d9d6a52c0b94f191a70ff265aecef5cd93fa9bc6ce67575401b5d",
+    "personalized_charging/bias_robust_study_v1/test_aggregate_independent.py": "d69b03d90c0b4eebcf53b2bbd0756db55d2efb70b9127f481e12829cfa5f480e",
+    "personalized_charging/bias_robust_study_v1/test_run.py": "fd48bacb9f6158b7de55f89023e09e65efedb2597ebdc002902866ee458e5283",
+    "personalized_charging/bridge.py": "994f3f2a81d84d59a968d5ff3c8a5e5b4f37fb2c9acf64b5a6301bee60b2970f",
+    "personalized_charging/choices.py": "d7846c00386810ada7b3de8bcd56119e5fe0f1ba9e7dcd7366665996bd425630",
+    "personalized_charging/core.py": "d35a251806f92259abbd641f8f19bce346175fc7219b139edf888ce241a331b2",
+    "personalized_charging/observations.py": "c3bb4ab78cbfe33921393271afd78bdddff2d60d9b48ea006233eb5f0691fe32",
+    "personalized_charging/p3d_diagnostic_v1/interval.py": "507f5a0e80cbbd5dcb56e9932b5839b310c0b620bfd44dce44b356d0f006ebaf",
+    "personalized_charging/profiles.py": "a9a234356785ee0db4478a2372c2e46dda0744b39a4ac4b7e89fd4ab9240a1d4",
+    "personalized_charging/reservations.py": "fceea5345a0993cc67c64b16acfe8ccf6202264ee2a8f9109f48fb4e24228b1b",
+    "personalized_charging/sequential_identification_v1/physical.py": "0df9cf1305ea39b4bdefdec702159b6af25321bc67c0a246bfd0ab5f10b753bd",
+    "personalized_charging/sequential_identification_v1/test_physical.py": "e11de942bc97762817716ac484684cc8a3fa81cd2df29089bda3d7798827ff0b",
+    "personalized_charging/three_contrast_confidence_exploratory_v1/gate.py": "11c84d7935c578884221968a421f6c7c73f349a8dfcafa2cf957bc0ac4604806",
+    "personalized_charging/three_contrast_confidence_exploratory_v1/test_gate.py": "862993b38bc53a2265d5b27b58c6011fc37ea46aff5f3735ddac931b8698fb50",
+    "personalized_charging/two_contrast_bias_exploratory_v1/gate.py": "62ca6e16daee331aa52e8dc44c015544dc690e78599a4ebd6a5be4807f2d0e3e",
+    "personalized_charging/two_contrast_bias_exploratory_v1/test_gate.py": "3595857fe47d2e39fa4e657e47ae8432d6e7172616add2a930e9b983e40c3d6b"
+  },
+  "frozen_utc": "2026-10-27T13:53:01.253985+00:00",
+  "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+  "scientific_attempts_allowed": 1
+}

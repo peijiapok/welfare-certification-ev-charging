@@ -1,0 +1,28 @@
+{
+  "sha256": {
+    "personalized_charging/__init__.py": "1798c02875c517387c273f5dcfa4b3f9c7b8323863dddbd50d3adc8e80a136ed",
+    "personalized_charging/bridge.py": "994f3f2a81d84d59a968d5ff3c8a5e5b4f37fb2c9acf64b5a6301bee60b2970f",
+    "personalized_charging/choices.py": "d7846c00386810ada7b3de8bcd56119e5fe0f1ba9e7dcd7366665996bd425630",
+    "personalized_charging/continuous_certificate_exploratory_v1/comparator.py": "964dc5465675bdeaec6a53c9a5cafa2e2d664dbea55452644492a78058bddff0",
+    "personalized_charging/continuous_certificate_exploratory_v1/proof_replay.py": "7e986d8640d7683c2a0f018b3a4f69d1f26713bc8b2f8bbde777eb465f9213c3",
+    "personalized_charging/continuous_certificate_exploratory_v1/test_comparator.py": "f16d6d51f3eb57ad8fe58a61336a4f610926859a2bb404b9559132f5ac75da5b",
+    "personalized_charging/continuous_certificate_exploratory_v1/test_proof_replay.py": "94688026babb60c551443b656ce4852324efb3cdf79695a6046c38040965d7b1",
+    "personalized_charging/core.py": "d35a251806f92259abbd641f8f19bce346175fc7219b139edf888ce241a331b2",
+    "personalized_charging/matched_verifiers_v1/PROTOCOL.md": "fa52a3f5c0c6c3ed3940f21816e4e06fdacfdc08537a9c6517bd6dddbf36af06",
+    "personalized_charging/matched_verifiers_v1/run.py": "2480e06b57bb6c9d305a6e1900a7260adee8c6f3a099fd5aa7a1bf37f907ea58",
+    "personalized_charging/matched_verifiers_v1/test_run.py": "6901b1e4a9b450acee05ab6e8dfe328371669796a47e8138fc2290248b82e526",
+    "personalized_charging/observations.py": "c3bb4ab78cbfe33921393271afd78bdddff2d60d9b48ea006233eb5f0691fe32",
+    "personalized_charging/p3d_diagnostic_v1/interval.py": "507f5a0e80cbbd5dcb56e9932b5839b310c0b620bfd44dce44b356d0f006ebaf",
+    "personalized_charging/profiles.py": "a9a234356785ee0db4478a2372c2e46dda0744b39a4ac4b7e89fd4ab9240a1d4",
+    "personalized_charging/reservations.py": "fceea5345a0993cc67c64b16acfe8ccf6202264ee2a8f9109f48fb4e24228b1b",
+    "personalized_charging/sequential_identification_v1/certificate.py": "c19a539ad7ffad2a2f70accb7687eb799d9e1db4652686778b00f7c83ee7925a",
+    "personalized_charging/sequential_identification_v1/physical.py": "0df9cf1305ea39b4bdefdec702159b6af25321bc67c0a246bfd0ab5f10b753bd",
+    "personalized_charging/sequential_identification_v1/test_certificate.py": "5136ec61ff2b5795f55e008367d967afbb0d5d4e100dda0030c63b50031535b5",
+    "personalized_charging/sequential_identification_v1/test_physical.py": "e11de942bc97762817716ac484684cc8a3fa81cd2df29089bda3d7798827ff0b"
+  },
+  "frozen_utc": "2026-10-27T13:12:40.294249+00:00",
+  "python": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+  "scientific_attempts_allowed": 1
+}

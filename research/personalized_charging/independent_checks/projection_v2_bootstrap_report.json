@@ -1,0 +1,22 @@
+{
+  "absolute_tolerance": 1e-10,
+  "bootstrap_matrices": 54,
+  "checker_sha256": "2de5e15750163aa29dcdc8968ab6b94e439371d19e25074b243411fd4eddfc21",
+  "checkpoint_sha256": "bb08050e668cdd5aff2584404e2a3bc814bd79d0071106dbb4d09914c457538c",
+  "checkpoints_per_group": 9,
+  "comparisons": 1188,
+  "completion_receipt_sha256": "acc24bbaef7eaf59498464a391a2b7659ea2abf4359d433ce26f7ef8a5ee6edc",
+  "discrepancies": [],
+  "groups": 6,
+  "intervals": 3564,
+  "limitations": "Same NumPy PCG64 streams and saved records; checks computation and integrity, not independence of arithmetic, model validity, source authenticity or causal claims.",
+  "manifest_sha256": "531bb8011b6d452a5fa4092c479aa2ff8dd599df5fec9e5592be0a5a76f0f2e4",
+  "numpy_version": "2.3.5",
+  "pairs_per_resample": 60,
+  "relative_tolerance": 1e-12,
+  "resamples_per_matrix": 2000,
+  "rows": 3240,
+  "source_manifest_checked": true,
+  "status": "PASS",
+  "summary_sha256": "61df7b60db9bb5ac127167fc67fac7c84e2a6c8a957c8c3a8099341f8c620488"
+}

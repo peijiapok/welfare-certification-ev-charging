@@ -1,0 +1,56 @@
+{
+  "figure_map": {
+    "figure_1": {
+      "stem": "decision_outcomes",
+      "study": "sequential_identification_v1"
+    },
+    "figure_2": {
+      "stem": "matched_decisions",
+      "study": "matched_verifiers_v1"
+    },
+    "figure_3": {
+      "stem": "bias_robust_decisions",
+      "study": "bias_robust_study_v1"
+    },
+    "figure_4": {
+      "stem": "prior_vs_collect",
+      "study": "variable_sensitivity_study_v1"
+    }
+  },
+  "file_sha256": {
+    "figure_data/figure_1/summary.json": "d0484f2962af25e401fb377b2afcba2c77a0b62a19786022afa8ccca909afc8d",
+    "figure_data/figure_2/completed.json": "ccb93f0953895deb5eed11e4fb06f25b179ad894c6ef93ac89480d485b573834",
+    "figure_data/figure_2/summary.json": "1d6b7c0b733ca66c7cfd57e93bd343da32e453ae883dc21bcea34b547463398d",
+    "figure_data/figure_3/completed.json": "93c2e81848020d46a2e23874a237cbdad825c56bbe27f2be351dd83ae45f51f2",
+    "figure_data/figure_3/summary.json": "b81995d84076a29f10cfa4a378b7efdb398c59574b1242b0ec997cd20bec00f9",
+    "figure_data/figure_4/completed.json": "9c5483fe0d070ec980407ea35bffc2ef43b80faa31fdaaa65be0f972db8d4c6e",
+    "figure_data/figure_4/summary.json": "f6a8df822e09b076654c5c68b06a444f1ad4432f61674b13849771c9bf9a637c",
+    "figure_scripts/figure_1_plot.py": "91db551a7f0b10ccea24a78c88aeadf004108bd0a861060e04d8daff0bc1805d",
+    "figure_scripts/figure_2_plot.py": "4086807cf5f6d57b2cc5f206f1bc906813b4d6a765b97d330508e4d650e6b6f1",
+    "figure_scripts/figure_3_plot.py": "44c6382fa0fac8802c454f847f39ae55bf932dd91e38f1953ef51c631984b7b3",
+    "figure_scripts/figure_4_plot.py": "cedade460363869cfefd376848eaca2634f0b8996a2e148b8af4bdbfa8a99139",
+    "figures/bias_robust_decisions.pdf": "c8e0fa859816c407ceae4180bd6fda18a97dcb960fc781e39b677f1bd95542ad",
+    "figures/bias_robust_decisions.png": "6e2ebeccd4178136e7a1d43bdcca091d214128e6383be09e39ba14f25c351a0c",
+    "figures/bias_robust_decisions.svg": "1d6af06b2659fe9c803caf41ff191cabe31cafad6f677c7bd0883e73419e66a5",
+    "figures/decision_outcomes.pdf": "24a3ed06dd94ffff4df2bf9c7ad672fe772dd706cf729762a4463adebb9e5a99",
+    "figures/decision_outcomes.png": "7a227769dc3483364368510a955cb477655327d2baa93c2f111824cd3b74faf3",
+    "figures/decision_outcomes.svg": "e5aa9e141a3ac07bfe82218d06940bf564d2e462f2869d20be46cd01c1da3670",
+    "figures/matched_decisions.pdf": "600e65f10c65f3fb6e98ea3cf9bb60efd04c15b0385992e470eaab6f76458f84",
+    "figures/matched_decisions.png": "ecda5d42856107d5445cf541f7514411c3e703ee96444ff7f2cdd2e1b4f5a431",
+    "figures/matched_decisions.svg": "ed0e1f15f05c9773fed968fb4a833ac2650d87acc5ec5ce79493e8f0d25a4afc",
+    "figures/prior_vs_collect.pdf": "1abc920e2672204fe01b93904ead320cde8fe7724d3e0d62d86f239f315d6087",
+    "figures/prior_vs_collect.png": "eeab972680a4809b781942f6cdae83f452523dfb400ce6578edeb584093dc864",
+    "figures/prior_vs_collect.svg": "654805c167332f2c20bb0c2a7812aa846c6ceac730e562f39c07cb055b9f93c8"
+  },
+  "note": "Plotting uses stored summaries, not scientific simulation. Exact binary identity of regenerated files is not guaranteed across environments.",
+  "packaging_environment": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "python": "3.13.11"
+  },
+  "source_environment": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "python": "3.13.11"
+  }
+}

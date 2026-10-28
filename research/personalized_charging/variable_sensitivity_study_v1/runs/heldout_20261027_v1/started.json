@@ -1,0 +1,8 @@
+{
+  "address_space_limit_bytes": 4294967296,
+  "bootstrap_seed": 83269022,
+  "manifest_sha256": "f35ed801f50f579c14251597274427c5990ea691ac8591d6ed12aef9763b98bf",
+  "master_seed": 83269021,
+  "status": "incomplete",
+  "wall_limit_seconds": 600.0
+}

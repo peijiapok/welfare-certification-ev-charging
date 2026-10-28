@@ -1,0 +1,4942 @@
+{
+  "easy": {
+    "methods": {
+      "alternating:continuous": {
+        "abstained": 52,
+        "certified": 8,
+        "certified_wilson_95": [
+          0.06914109480586972,
+          0.24165159676499615
+        ],
+        "checkpoint_statuses": {
+          "allow": 8,
+          "latched": 3,
+          "node_limit": 159,
+          "unverified_nonpositive_benefit_witness": 70
+        },
+        "false_n": 0,
+        "false_null_denominator": 0,
+        "false_wilson_95_given_null": null,
+        "first_crossings": [
+          48,
+          64,
+          48,
+          64,
+          64,
+          64,
+          48,
+          64
+        ],
+        "gate_elapsed_seconds_total": 36.73007454909384,
+        "known_node_counts": [
+          0,
+          0,
+          99,
+          99,
+          0,
+          0,
+          0,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          15,
+          0,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          77,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          0,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          19,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          61,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          35,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          19,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          59,
+          0,
+          99,
+          99,
+          89
+        ],
+        "means": {
+          "collection_advantage": 3.915845813697508,
+          "collection_unmet": 0.2,
+          "deployment_advantage": 0.3185093908304174,
+          "deployment_unmet": 0.016666666666666666,
+          "expected_collection_unmet": 0.25947197481258194,
+          "expected_deployment_unmet": 0.020515903526063885,
+          "lifecycle_advantage": 4.234355204527925,
+          "stop_counterfactual_advantage": 4.131540084844109
+        },
+        "n": 60,
+        "p_margin_false": null,
+        "p_margin_null_denominator": null,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 52,
+            "certified": 8,
+            "certified_wilson_95": [
+              0.06914109480586972,
+              0.24165159676499615
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "n": 60
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      },
+      "alternating:p_only": {
+        "abstained": 39,
+        "certified": 21,
+        "certified_wilson_95": [
+          0.24167774406017556,
+          0.47637381158245135
+        ],
+        "checkpoint_statuses": {
+          "allow": 21,
+          "below_threshold": 196,
+          "latched": 23
+        },
+        "false_n": 0,
+        "false_null_denominator": 0,
+        "false_wilson_95_given_null": null,
+        "first_crossings": [
+          32,
+          32,
+          32,
+          64,
+          32,
+          64,
+          64,
+          48,
+          32,
+          32,
+          64,
+          64,
+          32,
+          48,
+          48,
+          64,
+          32,
+          64,
+          64,
+          32,
+          32
+        ],
+        "gate_elapsed_seconds_total": 0.014131240546703339,
+        "known_node_counts": [],
+        "means": {
+          "collection_advantage": 3.915845813697508,
+          "collection_unmet": 0.2,
+          "deployment_advantage": 0.031229104614190935,
+          "deployment_unmet": 0.08333333333333333,
+          "expected_collection_unmet": 0.25947197481258194,
+          "expected_deployment_unmet": 0.05381192851591607,
+          "lifecycle_advantage": 3.947074918311699,
+          "stop_counterfactual_advantage": 3.2029073477452905
+        },
+        "n": 60,
+        "p_margin_false": 0,
+        "p_margin_null_denominator": 0,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 39,
+            "certified": 21,
+            "certified_wilson_95": [
+              0.24167774406017556,
+              0.47637381158245135
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "n": 60
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      },
+      "p_only:continuous": {
+        "abstained": 29,
+        "certified": 31,
+        "certified_wilson_95": [
+          0.39307810032592494,
+          0.6382495046026722
+        ],
+        "checkpoint_statuses": {
+          "allow": 31,
+          "latched": 31,
+          "node_limit": 120,
+          "unverified_nonpositive_benefit_witness": 58
+        },
+        "false_n": 0,
+        "false_null_denominator": 0,
+        "false_wilson_95_given_null": null,
+        "first_crossings": [
+          48,
+          64,
+          64,
+          64,
+          48,
+          32,
+          32,
+          32,
+          48,
+          64,
+          32,
+          64,
+          48,
+          32,
+          48,
+          48,
+          48,
+          48,
+          32,
+          64,
+          48,
+          64,
+          64,
+          48,
+          32,
+          64,
+          48,
+          32,
+          48,
+          48,
+          32
+        ],
+        "gate_elapsed_seconds_total": 30.819841468706727,
+        "known_node_counts": [
+          0,
+          99,
+          19,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          0,
+          0,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          27,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          39,
+          0,
+          0,
+          99,
+          33,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          27,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          27,
+          99,
+          19,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          27,
+          0,
+          99,
+          27,
+          0,
+          99,
+          99,
+          33,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          99,
+          19,
+          99,
+          99,
+          99,
+          33,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          19,
+          0,
+          0,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          19,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          19,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          59,
+          99,
+          99,
+          19,
+          99,
+          99,
+          23,
+          0,
+          19,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          29,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          23,
+          0,
+          99,
+          99,
+          23,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          23,
+          0,
+          99,
+          59,
+          99,
+          27,
+          0,
+          99,
+          99,
+          33,
+          0,
+          99,
+          23,
+          99,
+          41,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          19,
+          0,
+          99,
+          59,
+          99,
+          27
+        ],
+        "means": {
+          "collection_advantage": 3.667036611436229,
+          "collection_unmet": 0.23333333333333334,
+          "deployment_advantage": 0.8696538800782464,
+          "deployment_unmet": 0.08333333333333333,
+          "expected_collection_unmet": 0.2576710809051458,
+          "expected_deployment_unmet": 0.080031666656093,
+          "lifecycle_advantage": 4.5366904915144755,
+          "stop_counterfactual_advantage": 4.787015801039066
+        },
+        "n": 60,
+        "p_margin_false": null,
+        "p_margin_null_denominator": null,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 29,
+            "certified": 31,
+            "certified_wilson_95": [
+              0.39307810032592494,
+              0.6382495046026722
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "n": 60
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      },
+      "p_only:p_only": {
+        "abstained": 28,
+        "certified": 32,
+        "certified_wilson_95": [
+          0.4089342702715789,
+          0.6537209395856151
+        ],
+        "checkpoint_statuses": {
+          "allow": 32,
+          "below_threshold": 156,
+          "latched": 52
+        },
+        "false_n": 0,
+        "false_null_denominator": 0,
+        "false_wilson_95_given_null": null,
+        "first_crossings": [
+          32,
+          32,
+          64,
+          64,
+          64,
+          48,
+          16,
+          16,
+          16,
+          32,
+          64,
+          16,
+          64,
+          32,
+          16,
+          16,
+          48,
+          16,
+          16,
+          32,
+          64,
+          32,
+          64,
+          64,
+          48,
+          16,
+          64,
+          48,
+          16,
+          32,
+          48,
+          16
+        ],
+        "gate_elapsed_seconds_total": 0.013487108051776886,
+        "known_node_counts": [],
+        "means": {
+          "collection_advantage": 3.667036611436229,
+          "collection_unmet": 0.23333333333333334,
+          "deployment_advantage": 0.95541008014135,
+          "deployment_unmet": 0.08333333333333333,
+          "expected_collection_unmet": 0.2576710809051458,
+          "expected_deployment_unmet": 0.08262104208461775,
+          "lifecycle_advantage": 4.622446691577579,
+          "stop_counterfactual_advantage": 4.1094195340196915
+        },
+        "n": 60,
+        "p_margin_false": 0,
+        "p_margin_null_denominator": 0,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 28,
+            "certified": 32,
+            "certified_wilson_95": [
+              0.4089342702715789,
+              0.6537209395856151
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "n": 60
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      }
+    },
+    "n": 60,
+    "paired": {
+      "alternating:p_only minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.11666666666666667,
+            0.31666666666666665
+          ],
+          "mean_difference": 0.21666666666666667
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.4383484100693442,
+            0.6712692548256066
+          ],
+          "mean_difference": -0.2872802862162266
+        }
+      },
+      "p_only:continuous minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.26666666666666666,
+            0.5166666666666667
+          ],
+          "mean_difference": 0.38333333333333336
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.1814243336983126,
+            1.6388974404382626
+          ],
+          "mean_difference": 0.3023352869865495
+        }
+      },
+      "p_only:continuous minus alternating:p_only": {
+        "certified": {
+          "bootstrap_95": [
+            0.03333333333333333,
+            0.31666666666666665
+          ],
+          "mean_difference": 0.16666666666666666
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -0.9014671947710062,
+            1.9136184717337874
+          ],
+          "mean_difference": 0.5896155732027761
+        }
+      },
+      "p_only:p_only minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.26666666666666666,
+            0.5166666666666667
+          ],
+          "mean_difference": 0.4
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.1516838719358347,
+            1.743741787120097
+          ],
+          "mean_difference": 0.3880914870496532
+        }
+      },
+      "p_only:p_only minus alternating:p_only": {
+        "certified": {
+          "bootstrap_95": [
+            0.05,
+            0.3333333333333333
+          ],
+          "mean_difference": 0.18333333333333332
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -0.797684134834134,
+            2.0244260211769736
+          ],
+          "mean_difference": 0.6753717732658798
+        }
+      },
+      "p_only:p_only minus p_only:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            -0.03333333333333333,
+            0.06666666666666667
+          ],
+          "mean_difference": 0.016666666666666666
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -0.157902317643859,
+            0.33513418241691323
+          ],
+          "mean_difference": 0.0857562000631036
+        }
+      }
+    }
+  },
+  "low_information": {
+    "methods": {
+      "alternating:continuous": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "node_limit": 4,
+          "unverified_nonpositive_benefit_witness": 236
+        },
+        "false_n": 0,
+        "false_null_denominator": 0,
+        "false_wilson_95_given_null": null,
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 14.904280239716172,
+        "known_node_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "means": {
+          "collection_advantage": 0.3490241606635847,
+          "collection_unmet": 0.25,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.18404065573260744,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": 0.3490241606635847,
+          "stop_counterfactual_advantage": 0.3490241606635847
+        },
+        "n": 60,
+        "p_margin_false": null,
+        "p_margin_null_denominator": null,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 60,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "n": 60
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      },
+      "alternating:p_only": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "below_threshold": 240
+        },
+        "false_n": 0,
+        "false_null_denominator": 0,
+        "false_wilson_95_given_null": null,
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 0.013015083968639374,
+        "known_node_counts": [],
+        "means": {
+          "collection_advantage": 0.3490241606635847,
+          "collection_unmet": 0.25,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.18404065573260744,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": 0.3490241606635847,
+          "stop_counterfactual_advantage": 0.3490241606635847
+        },
+        "n": 60,
+        "p_margin_false": 0,
+        "p_margin_null_denominator": 0,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 60,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "n": 60
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      },
+      "p_only:continuous": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "node_limit": 7,
+          "unverified_nonpositive_benefit_witness": 233
+        },
+        "false_n": 0,
+        "false_null_denominator": 0,
+        "false_wilson_95_given_null": null,
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 15.850715827196836,
+        "known_node_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "means": {
+          "collection_advantage": 0.5681468326354913,
+          "collection_unmet": 0.25,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.18278220558814526,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": 0.5681468326354913,
+          "stop_counterfactual_advantage": 0.5681468326354913
+        },
+        "n": 60,
+        "p_margin_false": null,
+        "p_margin_null_denominator": null,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 60,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "n": 60
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      },
+      "p_only:p_only": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "below_threshold": 240
+        },
+        "false_n": 0,
+        "false_null_denominator": 0,
+        "false_wilson_95_given_null": null,
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 0.01573793776333332,
+        "known_node_counts": [],
+        "means": {
+          "collection_advantage": 0.5681468326354913,
+          "collection_unmet": 0.25,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.18278220558814526,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": 0.5681468326354913,
+          "stop_counterfactual_advantage": 0.5681468326354913
+        },
+        "n": 60,
+        "p_margin_false": 0,
+        "p_margin_null_denominator": 0,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 60,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.06017185214208986
+            ],
+            "n": 60
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      }
+    },
+    "n": 60,
+    "paired": {
+      "alternating:p_only minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        }
+      },
+      "p_only:continuous minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.2126522758440528,
+            1.813370470491936
+          ],
+          "mean_difference": 0.21912267197190632
+        }
+      },
+      "p_only:continuous minus alternating:p_only": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.2126522758440528,
+            1.813370470491936
+          ],
+          "mean_difference": 0.21912267197190632
+        }
+      },
+      "p_only:p_only minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.2126522758440528,
+            1.813370470491936
+          ],
+          "mean_difference": 0.21912267197190632
+        }
+      },
+      "p_only:p_only minus alternating:p_only": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.2126522758440528,
+            1.813370470491936
+          ],
+          "mean_difference": 0.21912267197190632
+        }
+      },
+      "p_only:p_only minus p_only:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        }
+      }
+    }
+  },
+  "misspecified": {
+    "methods": {
+      "alternating:continuous": {
+        "abstained": 41,
+        "certified": 19,
+        "certified_wilson_95": [
+          0.21305867552366523,
+          0.44233767026176773
+        ],
+        "checkpoint_statuses": {
+          "allow": 19,
+          "latched": 15,
+          "node_limit": 149,
+          "unverified_nonpositive_benefit_witness": 57
+        },
+        "false_n": 19,
+        "false_null_denominator": 60,
+        "false_wilson_95_given_null": [
+          0.21305867552366523,
+          0.44233767026176773
+        ],
+        "first_crossings": [
+          32,
+          48,
+          48,
+          64,
+          64,
+          48,
+          64,
+          48,
+          48,
+          64,
+          64,
+          64,
+          48,
+          48,
+          48,
+          32,
+          64,
+          48,
+          32
+        ],
+        "gate_elapsed_seconds_total": 35.17102278769016,
+        "known_node_counts": [
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          19,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          43,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          21,
+          99,
+          99,
+          99,
+          23,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          47,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          23,
+          0,
+          99,
+          99,
+          45,
+          0,
+          99,
+          35,
+          99,
+          99,
+          71,
+          0,
+          0,
+          0,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          23,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          61,
+          0,
+          99,
+          99,
+          51,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          87,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          31,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          87,
+          99,
+          19,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          45,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          87,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          0,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          0,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          31,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99
+        ],
+        "means": {
+          "collection_advantage": -4.650911477949978,
+          "collection_unmet": 0.35,
+          "deployment_advantage": -0.4634379377090765,
+          "deployment_unmet": 0.03333333333333333,
+          "expected_collection_unmet": 0.2726830021082647,
+          "expected_deployment_unmet": 0.049739993788469605,
+          "lifecycle_advantage": -5.114349415659054,
+          "stop_counterfactual_advantage": -5.263553173068082
+        },
+        "n": 60,
+        "p_margin_false": null,
+        "p_margin_null_denominator": null,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 41,
+            "certified": 19,
+            "certified_wilson_95": [
+              0.21305867552366523,
+              0.44233767026176773
+            ],
+            "false": 19,
+            "false_wilson_95": [
+              0.21305867552366523,
+              0.44233767026176773
+            ],
+            "n": 60
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      },
+      "alternating:p_only": {
+        "abstained": 40,
+        "certified": 20,
+        "certified_wilson_95": [
+          0.2272926152352268,
+          0.4594313354788031
+        ],
+        "checkpoint_statuses": {
+          "allow": 20,
+          "below_threshold": 194,
+          "latched": 26
+        },
+        "false_n": 20,
+        "false_null_denominator": 60,
+        "false_wilson_95_given_null": [
+          0.2272926152352268,
+          0.4594313354788031
+        ],
+        "first_crossings": [
+          64,
+          32,
+          32,
+          48,
+          32,
+          32,
+          64,
+          32,
+          32,
+          64,
+          64,
+          32,
+          64,
+          32,
+          64,
+          48,
+          32,
+          32,
+          32,
+          32
+        ],
+        "gate_elapsed_seconds_total": 0.014653533697128296,
+        "known_node_counts": [],
+        "means": {
+          "collection_advantage": -4.650911477949978,
+          "collection_unmet": 0.35,
+          "deployment_advantage": -0.7660004127358668,
+          "deployment_unmet": 0.05,
+          "expected_collection_unmet": 0.2726830021082647,
+          "expected_deployment_unmet": 0.0523782034989598,
+          "lifecycle_advantage": -5.416911890685844,
+          "stop_counterfactual_advantage": -5.344382694320367
+        },
+        "n": 60,
+        "p_margin_false": 20,
+        "p_margin_null_denominator": 60,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 40,
+            "certified": 20,
+            "certified_wilson_95": [
+              0.2272926152352268,
+              0.4594313354788031
+            ],
+            "false": 20,
+            "false_wilson_95": [
+              0.2272926152352268,
+              0.4594313354788031
+            ],
+            "n": 60
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      },
+      "p_only:continuous": {
+        "abstained": 30,
+        "certified": 30,
+        "certified_wilson_95": [
+          0.3773502424155577,
+          0.6226497575844423
+        ],
+        "checkpoint_statuses": {
+          "allow": 30,
+          "latched": 40,
+          "node_limit": 108,
+          "unverified_nonpositive_benefit_witness": 62
+        },
+        "false_n": 30,
+        "false_null_denominator": 60,
+        "false_wilson_95_given_null": [
+          0.3773502424155577,
+          0.6226497575844423
+        ],
+        "first_crossings": [
+          32,
+          48,
+          48,
+          64,
+          32,
+          32,
+          32,
+          32,
+          48,
+          32,
+          32,
+          48,
+          32,
+          48,
+          64,
+          32,
+          64,
+          32,
+          64,
+          64,
+          48,
+          48,
+          32,
+          48,
+          32,
+          32,
+          48,
+          32,
+          32,
+          48
+        ],
+        "gate_elapsed_seconds_total": 27.902581615373492,
+        "known_node_counts": [
+          0,
+          19,
+          0,
+          0,
+          0,
+          99,
+          0,
+          99,
+          35,
+          99,
+          99,
+          23,
+          99,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          33,
+          99,
+          19,
+          99,
+          19,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          99,
+          19,
+          99,
+          23,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          19,
+          99,
+          27,
+          0,
+          0,
+          99,
+          99,
+          99,
+          19,
+          0,
+          99,
+          59,
+          0,
+          27,
+          99,
+          99,
+          59,
+          0,
+          0,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          0,
+          0,
+          0,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          19,
+          0,
+          99,
+          99,
+          99,
+          0,
+          27,
+          0,
+          99,
+          99,
+          23,
+          0,
+          0,
+          99,
+          99,
+          99,
+          19,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          39,
+          99,
+          99,
+          99,
+          33,
+          0,
+          99,
+          23,
+          0,
+          0,
+          0,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          23,
+          99,
+          19,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          99,
+          59,
+          0,
+          0,
+          99,
+          99,
+          0,
+          99,
+          99,
+          99,
+          0,
+          0,
+          99,
+          99,
+          99,
+          11,
+          99,
+          7,
+          0,
+          99,
+          47,
+          99,
+          23,
+          99,
+          33,
+          99,
+          99,
+          19
+        ],
+        "means": {
+          "collection_advantage": -5.981350641201085,
+          "collection_unmet": 0.3333333333333333,
+          "deployment_advantage": -1.2591832590683605,
+          "deployment_unmet": 0.08333333333333333,
+          "expected_collection_unmet": 0.2581526741607563,
+          "expected_deployment_unmet": 0.07861144136770731,
+          "lifecycle_advantage": -7.240533900269445,
+          "stop_counterfactual_advantage": -7.07257141134841
+        },
+        "n": 60,
+        "p_margin_false": null,
+        "p_margin_null_denominator": null,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 30,
+            "certified": 30,
+            "certified_wilson_95": [
+              0.3773502424155577,
+              0.6226497575844423
+            ],
+            "false": 30,
+            "false_wilson_95": [
+              0.3773502424155577,
+              0.6226497575844423
+            ],
+            "n": 60
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      },
+      "p_only:p_only": {
+        "abstained": 26,
+        "certified": 34,
+        "certified_wilson_95": [
+          0.44103438776125564,
+          0.6842760319531324
+        ],
+        "checkpoint_statuses": {
+          "allow": 34,
+          "below_threshold": 136,
+          "latched": 70
+        },
+        "false_n": 34,
+        "false_null_denominator": 60,
+        "false_wilson_95_given_null": [
+          0.44103438776125564,
+          0.6842760319531324
+        ],
+        "first_crossings": [
+          32,
+          32,
+          16,
+          16,
+          64,
+          16,
+          32,
+          16,
+          16,
+          32,
+          16,
+          16,
+          48,
+          32,
+          16,
+          64,
+          64,
+          32,
+          64,
+          16,
+          16,
+          64,
+          48,
+          48,
+          16,
+          16,
+          32,
+          48,
+          16,
+          16,
+          48,
+          16,
+          16,
+          16
+        ],
+        "gate_elapsed_seconds_total": 0.012472182512283325,
+        "known_node_counts": [],
+        "means": {
+          "collection_advantage": -5.981350641201085,
+          "collection_unmet": 0.3333333333333333,
+          "deployment_advantage": -1.5654454409465899,
+          "deployment_unmet": 0.1,
+          "expected_collection_unmet": 0.2581526741607563,
+          "expected_deployment_unmet": 0.08905734090735415,
+          "lifecycle_advantage": -7.546796082147675,
+          "stop_counterfactual_advantage": -6.159396851317772
+        },
+        "n": 60,
+        "p_margin_false": 34,
+        "p_margin_null_denominator": 60,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 26,
+            "certified": 34,
+            "certified_wilson_95": [
+              0.44103438776125564,
+              0.6842760319531324
+            ],
+            "false": 34,
+            "false_wilson_95": [
+              0.44103438776125564,
+              0.6842760319531324
+            ],
+            "n": 60
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          }
+        }
+      }
+    },
+    "n": 60,
+    "paired": {
+      "alternating:p_only minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            -0.08333333333333333,
+            0.1
+          ],
+          "mean_difference": 0.016666666666666666
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.8785727717365879,
+            0.8915294756046768
+          ],
+          "mean_difference": -0.3025624750267902
+        }
+      },
+      "p_only:continuous minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.05,
+            0.31666666666666665
+          ],
+          "mean_difference": 0.18333333333333332
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -4.131755878130882,
+            -0.31089361638111773
+          ],
+          "mean_difference": -2.1261844846103912
+        }
+      },
+      "p_only:continuous minus alternating:p_only": {
+        "certified": {
+          "bootstrap_95": [
+            0.06666666666666667,
+            0.2833333333333333
+          ],
+          "mean_difference": 0.16666666666666666
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -3.3152058344529753,
+            -0.42932120376871513
+          ],
+          "mean_difference": -1.8236220095836013
+        }
+      },
+      "p_only:p_only minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.11666666666666667,
+            0.38374999999999776
+          ],
+          "mean_difference": 0.25
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -4.606563372674134,
+            -0.49489027077876346
+          ],
+          "mean_difference": -2.432446666488621
+        }
+      },
+      "p_only:p_only minus alternating:p_only": {
+        "certified": {
+          "bootstrap_95": [
+            0.11666666666666667,
+            0.36666666666666664
+          ],
+          "mean_difference": 0.23333333333333334
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -3.7491780942481516,
+            -0.5977204885912002
+          ],
+          "mean_difference": -2.1298841914618305
+        }
+      },
+      "p_only:p_only minus p_only:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.016666666666666666,
+            0.13333333333333333
+          ],
+          "mean_difference": 0.06666666666666667
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -0.9496300452907054,
+            0.03552693475104737
+          ],
+          "mean_difference": -0.3062621818782292
+        }
+      }
+    }
+  },
+  "mixed": {
+    "methods": {
+      "alternating:continuous": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "node_limit": 2,
+          "unverified_nonpositive_benefit_witness": 238
+        },
+        "false_n": 0,
+        "false_null_denominator": 54,
+        "false_wilson_95_given_null": [
+          0.0,
+          0.0664135880908964
+        ],
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 14.711442220956087,
+        "known_node_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          99,
+          99,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "means": {
+          "collection_advantage": -3.1421720140903706,
+          "collection_unmet": 0.25,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.15599775563057922,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": -3.1421720140903706,
+          "stop_counterfactual_advantage": -3.1421720140903706
+        },
+        "n": 60,
+        "p_margin_false": null,
+        "p_margin_null_denominator": null,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 5,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.43448246478317476
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.43448246478317476
+            ],
+            "n": 5
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 54,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.0664135880908964
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.0664135880908964
+            ],
+            "n": 54
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 1,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.7934506856227626
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.7934506856227626
+            ],
+            "n": 1
+          }
+        }
+      },
+      "alternating:p_only": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "below_threshold": 240
+        },
+        "false_n": 0,
+        "false_null_denominator": 54,
+        "false_wilson_95_given_null": [
+          0.0,
+          0.0664135880908964
+        ],
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 0.012881536036729813,
+        "known_node_counts": [],
+        "means": {
+          "collection_advantage": -3.1421720140903706,
+          "collection_unmet": 0.25,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.15599775563057922,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": -3.1421720140903706,
+          "stop_counterfactual_advantage": -3.1421720140903706
+        },
+        "n": 60,
+        "p_margin_false": 0,
+        "p_margin_null_denominator": 55,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 5,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.43448246478317476
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.43448246478317476
+            ],
+            "n": 5
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 54,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.0664135880908964
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.0664135880908964
+            ],
+            "n": 54
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 1,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.7934506856227626
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.7934506856227626
+            ],
+            "n": 1
+          }
+        }
+      },
+      "p_only:continuous": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "unverified_nonpositive_benefit_witness": 240
+        },
+        "false_n": 0,
+        "false_null_denominator": 54,
+        "false_wilson_95_given_null": [
+          0.0,
+          0.0664135880908964
+        ],
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 15.033566020429134,
+        "known_node_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "means": {
+          "collection_advantage": -4.0770937466508,
+          "collection_unmet": 0.25,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.140158843037471,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": -4.0770937466508,
+          "stop_counterfactual_advantage": -4.0770937466508
+        },
+        "n": 60,
+        "p_margin_false": null,
+        "p_margin_null_denominator": null,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 5,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.43448246478317476
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.43448246478317476
+            ],
+            "n": 5
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 54,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.0664135880908964
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.0664135880908964
+            ],
+            "n": 54
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 1,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.7934506856227626
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.7934506856227626
+            ],
+            "n": 1
+          }
+        }
+      },
+      "p_only:p_only": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "below_threshold": 240
+        },
+        "false_n": 0,
+        "false_null_denominator": 54,
+        "false_wilson_95_given_null": [
+          0.0,
+          0.0664135880908964
+        ],
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 0.0160925704985857,
+        "known_node_counts": [],
+        "means": {
+          "collection_advantage": -4.0770937466508,
+          "collection_unmet": 0.25,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.140158843037471,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": -4.0770937466508,
+          "stop_counterfactual_advantage": -4.0770937466508
+        },
+        "n": 60,
+        "p_margin_false": 0,
+        "p_margin_null_denominator": 55,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "above_margin|service_True": {
+            "abstained": 5,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.43448246478317476
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.43448246478317476
+            ],
+            "n": 5
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 54,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.0664135880908964
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.0664135880908964
+            ],
+            "n": 54
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 1,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.7934506856227626
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.7934506856227626
+            ],
+            "n": 1
+          }
+        }
+      }
+    },
+    "n": 60,
+    "paired": {
+      "alternating:p_only minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        }
+      },
+      "p_only:continuous minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -2.9934078809617124,
+            1.0107985044528964
+          ],
+          "mean_difference": -0.9349217325604292
+        }
+      },
+      "p_only:continuous minus alternating:p_only": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -2.9934078809617124,
+            1.0107985044528964
+          ],
+          "mean_difference": -0.9349217325604292
+        }
+      },
+      "p_only:p_only minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -2.9934078809617124,
+            1.0107985044528964
+          ],
+          "mean_difference": -0.9349217325604292
+        }
+      },
+      "p_only:p_only minus alternating:p_only": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -2.9934078809617124,
+            1.0107985044528964
+          ],
+          "mean_difference": -0.9349217325604292
+        }
+      },
+      "p_only:p_only minus p_only:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        }
+      }
+    }
+  },
+  "tight": {
+    "methods": {
+      "alternating:continuous": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "unverified_nonpositive_benefit_witness": 84,
+          "unverified_service_violation_witness": 156
+        },
+        "false_n": 0,
+        "false_null_denominator": 25,
+        "false_wilson_95_given_null": [
+          1.3877787807814457e-17,
+          0.13319225093904846
+        ],
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 13.22072766162455,
+        "known_node_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "means": {
+          "collection_advantage": -1.2381374310880997,
+          "collection_unmet": 0.3,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.19855124691906897,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": -1.2381374310880997,
+          "stop_counterfactual_advantage": -1.2381374310880997
+        },
+        "n": 60,
+        "p_margin_false": null,
+        "p_margin_null_denominator": null,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 7,
+            "certified": 0,
+            "certified_wilson_95": [
+              5.551115123125783e-17,
+              0.35433043506668743
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              5.551115123125783e-17,
+              0.35433043506668743
+            ],
+            "n": 7
+          },
+          "above_margin|service_True": {
+            "abstained": 32,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.1071791982550706
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.1071791982550706
+            ],
+            "n": 32
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 18,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.17587922364665765
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.17587922364665765
+            ],
+            "n": 18
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 3,
+            "certified": 0,
+            "certified_wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ],
+            "n": 3
+          }
+        }
+      },
+      "alternating:p_only": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "service_bound": 240
+        },
+        "false_n": 0,
+        "false_null_denominator": 25,
+        "false_wilson_95_given_null": [
+          1.3877787807814457e-17,
+          0.13319225093904846
+        ],
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 0.013516182079911232,
+        "known_node_counts": [],
+        "means": {
+          "collection_advantage": -1.2381374310880997,
+          "collection_unmet": 0.3,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.19855124691906897,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": -1.2381374310880997,
+          "stop_counterfactual_advantage": -1.2381374310880997
+        },
+        "n": 60,
+        "p_margin_false": 0,
+        "p_margin_null_denominator": 21,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 7,
+            "certified": 0,
+            "certified_wilson_95": [
+              5.551115123125783e-17,
+              0.35433043506668743
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              5.551115123125783e-17,
+              0.35433043506668743
+            ],
+            "n": 7
+          },
+          "above_margin|service_True": {
+            "abstained": 32,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.1071791982550706
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.1071791982550706
+            ],
+            "n": 32
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 18,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.17587922364665765
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.17587922364665765
+            ],
+            "n": 18
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 3,
+            "certified": 0,
+            "certified_wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ],
+            "n": 3
+          }
+        }
+      },
+      "p_only:continuous": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "unverified_nonpositive_benefit_witness": 57,
+          "unverified_service_violation_witness": 183
+        },
+        "false_n": 0,
+        "false_null_denominator": 25,
+        "false_wilson_95_given_null": [
+          1.3877787807814457e-17,
+          0.13319225093904846
+        ],
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 13.740666512399912,
+        "known_node_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "means": {
+          "collection_advantage": -1.6848740807593054,
+          "collection_unmet": 0.3,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.1888574769586889,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": -1.6848740807593054,
+          "stop_counterfactual_advantage": -1.6848740807593054
+        },
+        "n": 60,
+        "p_margin_false": null,
+        "p_margin_null_denominator": null,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 7,
+            "certified": 0,
+            "certified_wilson_95": [
+              5.551115123125783e-17,
+              0.35433043506668743
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              5.551115123125783e-17,
+              0.35433043506668743
+            ],
+            "n": 7
+          },
+          "above_margin|service_True": {
+            "abstained": 32,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.1071791982550706
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.1071791982550706
+            ],
+            "n": 32
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 18,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.17587922364665765
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.17587922364665765
+            ],
+            "n": 18
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 3,
+            "certified": 0,
+            "certified_wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ],
+            "n": 3
+          }
+        }
+      },
+      "p_only:p_only": {
+        "abstained": 60,
+        "certified": 0,
+        "certified_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "checkpoint_statuses": {
+          "service_bound": 240
+        },
+        "false_n": 0,
+        "false_null_denominator": 25,
+        "false_wilson_95_given_null": [
+          1.3877787807814457e-17,
+          0.13319225093904846
+        ],
+        "first_crossings": [],
+        "gate_elapsed_seconds_total": 0.017242250964045525,
+        "known_node_counts": [],
+        "means": {
+          "collection_advantage": -1.6848740807593054,
+          "collection_unmet": 0.3,
+          "deployment_advantage": 0.0,
+          "deployment_unmet": 0.0,
+          "expected_collection_unmet": 0.1888574769586889,
+          "expected_deployment_unmet": 0.0,
+          "lifecycle_advantage": -1.6848740807593054,
+          "stop_counterfactual_advantage": -1.6848740807593054
+        },
+        "n": 60,
+        "p_margin_false": 0,
+        "p_margin_null_denominator": 21,
+        "strata": {
+          "above_margin|service_False": {
+            "abstained": 7,
+            "certified": 0,
+            "certified_wilson_95": [
+              5.551115123125783e-17,
+              0.35433043506668743
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              5.551115123125783e-17,
+              0.35433043506668743
+            ],
+            "n": 7
+          },
+          "above_margin|service_True": {
+            "abstained": 32,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.1071791982550706
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.1071791982550706
+            ],
+            "n": 32
+          },
+          "nonpositive|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "nonpositive|service_True": {
+            "abstained": 18,
+            "certified": 0,
+            "certified_wilson_95": [
+              0.0,
+              0.17587922364665765
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              0.0,
+              0.17587922364665765
+            ],
+            "n": 18
+          },
+          "positive_at_or_below_margin|service_False": {
+            "abstained": 0,
+            "certified": 0,
+            "certified_wilson_95": null,
+            "false": 0,
+            "false_wilson_95": null,
+            "n": 0
+          },
+          "positive_at_or_below_margin|service_True": {
+            "abstained": 3,
+            "certified": 0,
+            "certified_wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ],
+            "false": 0,
+            "false_wilson_95": [
+              5.551115123125783e-17,
+              0.5614970317550454
+            ],
+            "n": 3
+          }
+        }
+      }
+    },
+    "n": 60,
+    "paired": {
+      "alternating:p_only minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        }
+      },
+      "p_only:continuous minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.8740894695604946,
+            1.1284511968864215
+          ],
+          "mean_difference": -0.4467366496712057
+        }
+      },
+      "p_only:continuous minus alternating:p_only": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.8740894695604946,
+            1.1284511968864215
+          ],
+          "mean_difference": -0.4467366496712057
+        }
+      },
+      "p_only:p_only minus alternating:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.8740894695604946,
+            1.1284511968864215
+          ],
+          "mean_difference": -0.4467366496712057
+        }
+      },
+      "p_only:p_only minus alternating:p_only": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            -1.8740894695604946,
+            1.1284511968864215
+          ],
+          "mean_difference": -0.4467366496712057
+        }
+      },
+      "p_only:p_only minus p_only:continuous": {
+        "certified": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "lifecycle_advantage": {
+          "bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        }
+      }
+    }
+  }
+}
